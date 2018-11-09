@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Peercoin</source>
-        <translation>Sobre Peercoin</translation>
+        <source>About Ditcoin</source>
+        <translation>Sobre Ditcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Peercoin&lt;/b&gt; version</source>
-        <translation>Versão do &lt;b&gt;Peercoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Ditcoin&lt;/b&gt; version</source>
+        <translation>Versão do &lt;b&gt;Ditcoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The Peercoin developers</source>
-        <translation>Os programadores Peercoin</translation>
+        <source>The Ditcoin developers</source>
+        <translation>Os programadores Ditcoin</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Peercoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estes são os seus endereços Peercoin para receber pagamentos. Poderá enviar um endereço diferente para cada remetente para poder identificar os pagamentos.</translation>
+        <source>These are your Ditcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estes são os seus endereços Ditcoin para receber pagamentos. Poderá enviar um endereço diferente para cada remetente para poder identificar os pagamentos.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Peercoin address</source>
-        <translation>Assine uma mensagem para provar que é dono de um endereço Peercoin</translation>
+        <source>Sign a message to prove you own a Ditcoin address</source>
+        <translation>Assine uma mensagem para provar que é dono de um endereço Ditcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Peercoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Peercoin especificado</translation>
+        <source>Verify a message to ensure it was signed with a specified Ditcoin address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Ditcoin especificado</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Peercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços Peercoin para enviar pagamentos. Verifique sempre o valor e a morada de envio antes de enviar moedas.</translation>
+        <source>These are your Ditcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços Ditcoin para enviar pagamentos. Verifique sempre o valor e a morada de envio antes de enviar moedas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEERCOINS&lt;/b&gt;!</source>
-        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS PEERCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DITCOINS&lt;/b&gt;!</source>
+        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS DITCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-56"/>
-        <source>Peercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
-        <translation>O cliente Peercoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus peercoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
+        <source>Ditcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ditcoins from being stolen by malware infecting your computer.</source>
+        <translation>O cliente Ditcoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus ditcoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Peercoin</source>
-        <translation>Mostrar informação sobre Peercoin</translation>
+        <source>Show information about Ditcoin</source>
+        <translation>Mostrar informação sobre Ditcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Peercoin address</source>
-        <translation>Enviar moedas para um endereço peercoin</translation>
+        <source>Send coins to a Ditcoin address</source>
+        <translation>Enviar moedas para um endereço ditcoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Peercoin</source>
-        <translation>Modificar opções de configuração para peercoin</translation>
+        <source>Modify configuration options for Ditcoin</source>
+        <translation>Modificar opções de configuração para ditcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Peercoin</source>
-        <translation>Peercoin</translation>
+        <source>Ditcoin</source>
+        <translation>Ditcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Peercoin</source>
-        <translation>&amp;Sobre o Peercoin</translation>
+        <source>&amp;About Ditcoin</source>
+        <translation>&amp;Sobre o Ditcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Peercoin addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços Peercoin para provar que os controla</translation>
+        <source>Sign messages with your Ditcoin addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços Ditcoin para provar que os controla</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Peercoin addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Peercoin especificado</translation>
+        <source>Verify messages to ensure they were signed with specified Ditcoin addresses</source>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Ditcoin especificado</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -546,13 +546,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+47"/>
-        <source>Peercoin client</source>
-        <translation>Cliente Peercoin</translation>
+        <source>Ditcoin client</source>
+        <translation>Cliente Ditcoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Peercoin network</source>
-        <translation><numerusform>%n ligação ativa à rede Peercoin</numerusform><numerusform>%n ligações ativas à rede Peercoin</numerusform></translation>
+        <source>%n active connection(s) to Ditcoin network</source>
+        <translation><numerusform>%n ligação ativa à rede Ditcoin</numerusform><numerusform>%n ligações ativas à rede Ditcoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -666,8 +666,8 @@ Endereço: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Peercoin address or malformed URI parameters.</source>
-        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço Peercoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Ditcoin address or malformed URI parameters.</source>
+        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço Ditcoin inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -681,8 +681,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Peercoin can no longer continue safely and will quit.</source>
-        <translation>Ocorreu um erro fatal. O Peercoin não pode continuar com segurança e irá fechar.</translation>
+        <source>A fatal error occurred. Ditcoin can no longer continue safely and will quit.</source>
+        <translation>Ocorreu um erro fatal. O Ditcoin não pode continuar com segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -747,8 +747,8 @@ Endereço: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
-        <translation>O endereço introduzido &quot;%1&quot; não é um endereço peercoin válido.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Ditcoin address.</source>
+        <translation>O endereço introduzido &quot;%1&quot; não é um endereço ditcoin válido.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -766,8 +766,8 @@ Endereço: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Peercoin-Qt</source>
-        <translation>Peercoin-Qt</translation>
+        <source>Ditcoin-Qt</source>
+        <translation>Ditcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,7 +819,7 @@ Endereço: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PPC fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
+        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 DIT fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -829,8 +829,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Peercoin after logging in to the system.</source>
-        <translation>Começar o Peercoin automaticamente ao iniciar sessão no sistema.</translation>
+        <source>Automatically start Ditcoin after logging in to the system.</source>
+        <translation>Começar o Ditcoin automaticamente ao iniciar sessão no sistema.</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -839,8 +839,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Peercoin on system login</source>
-        <translation>&amp;Começar o Peercoin ao iniciar o sistema</translation>
+        <source>&amp;Start Ditcoin on system login</source>
+        <translation>&amp;Começar o Ditcoin ao iniciar o sistema</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -864,8 +864,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Peercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente peercoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <source>Automatically open the Ditcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir a porta do cliente ditcoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -874,8 +874,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Peercoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Ligar à rede Peercoin através de um proxy SOCKS (p.ex. quando ligar através de Tor).</translation>
+        <source>Connect to the Ditcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Ligar à rede Ditcoin através de um proxy SOCKS (p.ex. quando ligar através de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -949,8 +949,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Peercoin.</source>
-        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o Peercoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ditcoin.</source>
+        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o Ditcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -964,8 +964,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Peercoin addresses in the transaction list or not.</source>
-        <translation>Se mostrar, ou não, os endereços Peercoin na lista de transações.</translation>
+        <source>Whether to show Ditcoin addresses in the transaction list or not.</source>
+        <translation>Se mostrar, ou não, os endereços Ditcoin na lista de transações.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1016,8 +1016,8 @@ Endereço: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Peercoin.</source>
-        <translation>Esta opção entrará em efeito após reiniciar o Peercoin.</translation>
+        <source>This setting will take effect after restarting Ditcoin.</source>
+        <translation>Esta opção entrará em efeito após reiniciar o Ditcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1035,8 +1035,8 @@ Endereço: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Peercoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Peercoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ditcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Ditcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1089,8 +1089,8 @@ Endereço: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start peercoin: click-to-pay handler</source>
-        <translation>Impossível começar o modo clicar-para-pagar com peercoin:</translation>
+        <source>Cannot start ditcoin: click-to-pay handler</source>
+        <translation>Impossível começar o modo clicar-para-pagar com ditcoin:</translation>
     </message>
 </context>
 <context>
@@ -1239,8 +1239,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Peercoin-Qt help message to get a list with possible Peercoin command-line options.</source>
-        <translation>Mostrar a mensagem de ajuda do Peercoin-Qt para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
+        <source>Show the Ditcoin-Qt help message to get a list with possible Ditcoin command-line options.</source>
+        <translation>Mostrar a mensagem de ajuda do Ditcoin-Qt para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1259,13 +1259,13 @@ Endereço: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Peercoin - Debug window</source>
-        <translation>Peercoin - Janela de depuração</translation>
+        <source>Ditcoin - Debug window</source>
+        <translation>Ditcoin - Janela de depuração</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Peercoin Core</source>
-        <translation>Núcleo Peercoin</translation>
+        <source>Ditcoin Core</source>
+        <translation>Núcleo Ditcoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1274,7 +1274,7 @@ Endereço: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Peercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Ditcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir o ficheiro de registo de depuração da pasta de dados actual. Isto pode demorar alguns segundos para ficheiros de registo maiores.</translation>
     </message>
     <message>
@@ -1284,8 +1284,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Peercoin RPC console.</source>
-        <translation>Bem-vindo à consola RPC Peercoin.</translation>
+        <source>Welcome to the Ditcoin RPC console.</source>
+        <translation>Bem-vindo à consola RPC Ditcoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1468,8 +1468,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Introduza um endereço Peercoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Ditcoin address</source>
+        <translation>Introduza um endereço Ditcoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1533,8 +1533,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Peercoin address</source>
-        <translation>Assine uma mensagem para provar que é dono deste endereço Peercoin</translation>
+        <source>Sign the message to prove you own this Ditcoin address</source>
+        <translation>Assine uma mensagem para provar que é dono deste endereço Ditcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1569,8 +1569,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Peercoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Peercoin especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified Ditcoin address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Ditcoin especificado</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1585,8 +1585,8 @@ Endereço: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Introduza um endereço Peercoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Ditcoin address</source>
+        <translation>Introduza um endereço Ditcoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1595,8 +1595,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Peercoin signature</source>
-        <translation>Introduza assinatura Peercoin</translation>
+        <source>Enter Ditcoin signature</source>
+        <translation>Introduza assinatura Ditcoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1669,8 +1669,8 @@ Endereço: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Peercoin developers</source>
-        <translation>Os programadores Peercoin</translation>
+        <source>The Ditcoin developers</source>
+        <translation>Os programadores Ditcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2207,8 +2207,8 @@ Endereço: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Peercoin version</source>
-        <translation>Versão Peercoin</translation>
+        <source>Ditcoin version</source>
+        <translation>Versão Ditcoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2217,8 +2217,8 @@ Endereço: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Enviar comando para -server ou peercoind</translation>
+        <source>Send command to -server or ditcoind</source>
+        <translation>Enviar comando para -server ou ditcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2237,13 +2237,13 @@ Endereço: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: peercoin.conf)</source>
-        <translation>Especificar ficheiro de configuração (por defeito: peercoin.conf)</translation>
+        <source>Specify configuration file (default: ditcoin.conf)</source>
+        <translation>Especificar ficheiro de configuração (por defeito: ditcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Especificar ficheiro pid (por defeito: peercoind.pid)</translation>
+        <source>Specify pid file (default: ditcoind.pid)</source>
+        <translation>Especificar ficheiro pid (por defeito: ditcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2320,24 +2320,24 @@ Endereço: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=peercoinrpc
+rpcuser=ditcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Ditcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, deverá definir rpcpassword no ficheiro de configuração :
  %s
 É recomendado que use a seguinte palavra-passe aleatória:
-rpcuser=peercoinrpc
+rpcuser=ditcoinrpc
 rpcpassword=%s
 (não precisa recordar esta palavra-passe)
 O nome de utilizador e password NÃO DEVEM ser iguais.
 Se o ficheiro não existir, crie-o com permissões de leitura apenas para o dono.
 Também é recomendado definir alertnotify para que seja alertado sobre problemas;
-por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Peercoin&quot; admin@foo.com
+por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Ditcoin&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2352,8 +2352,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Peercoin&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Peercoin is probably already running.</source>
-        <translation>Impossível trancar a pasta de dados %s.  Provavelmente o Peercoin já está a ser executado.</translation>
+        <source>Cannot obtain a lock on data directory %s. Ditcoin is probably already running.</source>
+        <translation>Impossível trancar a pasta de dados %s.  Provavelmente o Ditcoin já está a ser executado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2397,8 +2397,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Peercoin&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Peercoin will not work properly.</source>
-        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o Peercoin não irá funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Ditcoin will not work properly.</source>
+        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o Ditcoin não irá funcionar correctamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2648,7 +2648,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Peercoin&quot; admin@fo
     <message>
         <location line="+5"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opções SSL: (ver a Wiki Peercoin para instruções de configuração SSL)</translation>
+        <translation>Opções SSL: (ver a Wiki Ditcoin para instruções de configuração SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2837,13 +2837,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Peercoin&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Peercoin</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do Peercoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ditcoin</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do Ditcoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Peercoin to complete</source>
-        <translation>A Carteira precisou ser reescrita: reinicie o Peercoin para completar</translation>
+        <source>Wallet needed to be rewritten: restart Ditcoin to complete</source>
+        <translation>A Carteira precisou ser reescrita: reinicie o Ditcoin para completar</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2902,8 +2902,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Peercoin&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Peercoin is probably already running.</source>
-        <translation>Incapaz de vincular à porta %s neste computador.  Provavelmente o Peercoin já está a funcionar.</translation>
+        <source>Unable to bind to %s on this computer. Ditcoin is probably already running.</source>
+        <translation>Incapaz de vincular à porta %s neste computador.  Provavelmente o Ditcoin já está a funcionar.</translation>
     </message>
     <message>
         <location line="+64"/>

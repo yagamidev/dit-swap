@@ -1,6 +1,6 @@
 [Protocol]
-exec=peercoin-qt '%u'
-protocol=peercoin
+exec=ditcoin-qt '%u'
+protocol=ditcoin
 input=none
 output=none
 helper=true

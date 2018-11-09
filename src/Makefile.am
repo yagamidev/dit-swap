@@ -26,22 +26,22 @@ $(LIBLEVELDB) $(LIBMEMENV):
 endif
 
 noinst_LIBRARIES = \
-  libpeercoin_server.a \
-  libpeercoin_common.a \
-  libpeercoin_cli.a
+  libditcoin_server.a \
+  libditcoin_common.a \
+  libditcoin_cli.a
 if ENABLE_WALLET
-noinst_LIBRARIES += libpeercoin_wallet.a
+noinst_LIBRARIES += libditcoin_wallet.a
 endif
 
 bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += peercoind
+  bin_PROGRAMS += ditcoind
 endif
 
 if BUILD_BITCOIN_CLI
-  bin_PROGRAMS += peercoin-cli
+  bin_PROGRAMS += ditcoin-cli
 endif
 
 .PHONY: FORCE
@@ -104,7 +104,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 version.o: obj/build.h
 
-libpeercoin_server_a_SOURCES = \
+libditcoin_server_a_SOURCES = \
   addrman.cpp \
   alert.cpp \
   rpcserver.cpp \
@@ -127,7 +127,7 @@ libpeercoin_server_a_SOURCES = \
   $(JSON_H) \
   $(BITCOIN_CORE_H)
 
-libpeercoin_wallet_a_SOURCES = \
+libditcoin_wallet_a_SOURCES = \
   db.cpp \
   rpcdump.cpp \
   rpcmining.cpp \
@@ -139,7 +139,7 @@ libpeercoin_wallet_a_SOURCES = \
   rpcwallet.cpp \
   $(BITCOIN_CORE_H)
 
-libpeercoin_common_a_SOURCES = \
+libditcoin_common_a_SOURCES = \
   hash.cpp \
   key.cpp \
   netbase.cpp \
@@ -150,41 +150,41 @@ libpeercoin_common_a_SOURCES = \
   version.cpp \
   $(BITCOIN_CORE_H)
 
-libpeercoin_cli_a_SOURCES = \
+libditcoin_cli_a_SOURCES = \
   rpcclient.cpp \
   $(BITCOIN_CORE_H)
 
-nodist_libpeercoin_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
+nodist_libditcoin_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
 #
 
-# peercoind binary #
-peercoind_LDADD = \
-  libpeercoin_server.a \
-  libpeercoin_cli.a \
-  libpeercoin_common.a \
+# ditcoind binary #
+ditcoind_LDADD = \
+  libditcoin_server.a \
+  libditcoin_cli.a \
+  libditcoin_common.a \
   $(LIBLEVELDB) \
   $(LIBMEMENV) \
   $(BOOST_LIBS)
 if ENABLE_WALLET
-peercoind_LDADD += libpeercoin_wallet.a
+ditcoind_LDADD += libditcoin_wallet.a
 endif
-peercoind_SOURCES = bitcoind.cpp
-peercoind_LDFLAGS = $(AM_LDFLAGS)
+ditcoind_SOURCES = bitcoind.cpp
+ditcoind_LDFLAGS = $(AM_LDFLAGS)
 
 if TARGET_WINDOWS
-peercoind_SOURCES += bitcoind-res.rc
+ditcoind_SOURCES += bitcoind-res.rc
 endif
 
 AM_CPPFLAGS += $(BDB_CPPFLAGS)
-peercoind_LDADD += $(BDB_LIBS)
+ditcoind_LDADD += $(BDB_LIBS)
 
 # bitcoin-cli binary #
-peercoin_cli_LDADD = libpeercoin_cli.a libpeercoin_common.a $(BOOST_LIBS)
-peercoin_cli_SOURCES = bitcoin-cli.cpp
-peercoin_cli_LDFLAGS = $(AM_LDFLAGS)
+ditcoin_cli_LDADD = libditcoin_cli.a libditcoin_common.a $(BOOST_LIBS)
+ditcoin_cli_SOURCES = bitcoin-cli.cpp
+ditcoin_cli_LDFLAGS = $(AM_LDFLAGS)
 
 if TARGET_WINDOWS
-peercoin_cli_SOURCES += bitcoin-cli-res.rc
+ditcoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
 CLEANFILES = leveldb/libleveldb.a leveldb/libmemenv.a *.gcda *.gcno
@@ -205,11 +205,11 @@ clean-local:
 	$(OBJC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \
 	  $(CPPFLAGS) $(AM_CXXFLAGS) $(QT_INCLUDES) $(CXXFLAGS)  -c -o $@ $<
 
-LIBPEERCOIN_SERVER=libpeercoin_server.a
-LIBPEERCOIN_WALLET=libpeercoin_wallet.a
-LIBPEERCOIN_COMMON=libpeercoin_common.a
-LIBPEERCOIN_CLI=libpeercoin_cli.a
-LIBPEERCOINQT=qt/libpeercoinqt.a
+LIBDITCOIN_SERVER=libditcoin_server.a
+LIBDITCOIN_WALLET=libditcoin_wallet.a
+LIBDITCOIN_COMMON=libditcoin_common.a
+LIBDITCOIN_CLI=libditcoin_cli.a
+LIBDITCOINQT=qt/libditcoinqt.a
 
 if ENABLE_TESTS
 include Makefile.test.include

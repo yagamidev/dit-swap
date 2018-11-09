@@ -8,18 +8,18 @@ Start and login into docker-machine host to activate kvm module, ie
 
 	docker-machine ssh default sudo modprobe kvm_intel
 
-From Peercoin repository root build the peergitian/base image:
+From Ditcoin repository root build the peergitian/base image:
 
     docker build -t peergitian/base $PWD/contrib/gitian-docker
 
 Then the peergitian/setup image:
 
-    ID=`docker run --privileged -d -v $PWD:/peercoin -t peergitian/base /setup.sh` && docker attach $ID
+    ID=`docker run --privileged -d -v $PWD:/ditcoin -t peergitian/base /setup.sh` && docker attach $ID
     docker commit $ID peergitian/setup
 
 If the setup fails you should still commit the container to save the current state. Then you can start the container to complete the jobs manually and commit again:
 
-    ID=`docker run --privileged -d -v $PWD:/peercoin -ti peergitian/setup bash` && docker attach $ID
+    ID=`docker run --privileged -d -v $PWD:/ditcoin -ti peergitian/setup bash` && docker attach $ID
     service apt-cacher-ng start
     cd gitian-builder
     # finish the setup process manually and exit the container
@@ -30,12 +30,12 @@ Then you must choose to either build from your local repository or from the offi
 
 To build from your local repository:
 
-* modify `contrib/gitian-descriptors/gitian-linux.yml` and `contrib/gitian-descriptors/gitian-win.yml`: replace the line `- "url": "https://github.com/peercoin/peercoin"` with `- "url": "/peercoin"`
-* start the container with `docker run --privileged -ti -w /gitian-builder -v $PWD:/peercoin peergitian/setup bash`
+* modify `contrib/gitian-descriptors/gitian-linux.yml` and `contrib/gitian-descriptors/gitian-win.yml`: replace the line `- "url": "https://github.com/ditcoin/ditcoin"` with `- "url": "/ditcoin"`
+* start the container with `docker run --privileged -ti -w /gitian-builder -v $PWD:/ditcoin peergitian/setup bash`
 
 To build from the official repository start the container with this command:
 
-    docker run --privileged -ti -w /gitian-builder -v $PWD:/peercoin peergitian/setup bash
+    docker run --privileged -ti -w /gitian-builder -v $PWD:/ditcoin peergitian/setup bash
 
 Then you're inside the container. Verify KVM is working:
 
@@ -51,16 +51,16 @@ Then define the version you want to build (v$VERSION must be an annotated tag on
 
 Then to build the Linux binaries:
 
-    ./bin/gbuild --commit peercoin=v${VERSION} ../peercoin/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gbuild --commit ditcoin=v${VERSION} ../ditcoin/contrib/gitian-descriptors/gitian-linux.yml
     pushd build/out
-    zip -r peercoin-${VERSION}-linux-gitian.zip *
-    mv peercoin-${VERSION}-linux-gitian.zip /peercoin/
+    zip -r ditcoin-${VERSION}-linux-gitian.zip *
+    mv ditcoin-${VERSION}-linux-gitian.zip /ditcoin/
     popd
 
 And to build the Windows binaries:
 
-    ./bin/gbuild --commit peercoin=v${VERSION} ../peercoin/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gbuild --commit ditcoin=v${VERSION} ../ditcoin/contrib/gitian-descriptors/gitian-win.yml
     pushd build/out
-    zip -r peercoin-${VERSION}-win-gitian.zip *
-    mv peercoin-${VERSION}-win-gitian.zip /peercoin/
+    zip -r ditcoin-${VERSION}-win-gitian.zip *
+    mv ditcoin-${VERSION}-win-gitian.zip /ditcoin/
     popd

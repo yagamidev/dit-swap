@@ -11,22 +11,22 @@ fi
 
 cd /gitian-builder/
 
-./bin/gbuild --commit peercoin=${VERSION} ../peercoin/contrib/gitian-descriptors/gitian-linux.yml
+./bin/gbuild --commit ditcoin=${VERSION} ../ditcoin/contrib/gitian-descriptors/gitian-linux.yml
 pushd build/out
-zip -r peercoin-${VERSION}-linux-gitian.zip *
-mv peercoin-${VERSION}-linux-gitian.zip /peercoin/
+zip -r ditcoin-${VERSION}-linux-gitian.zip *
+mv ditcoin-${VERSION}-linux-gitian.zip /ditcoin/
 popd
 
-./bin/gbuild --commit peercoin=${VERSION} ../peercoin/contrib/gitian-descriptors/gitian-win.yml
+./bin/gbuild --commit ditcoin=${VERSION} ../ditcoin/contrib/gitian-descriptors/gitian-win.yml
 pushd build/out
-zip -r peercoin-${VERSION}-win-gitian.zip *
-mv peercoin-${VERSION}-win-gitian.zip /peercoin/
+zip -r ditcoin-${VERSION}-win-gitian.zip *
+mv ditcoin-${VERSION}-win-gitian.zip /ditcoin/
 popd
 
-./bin/gbuild --commit peercoin=${VERSION} ../peercoin/contrib/gitian-descriptors/gitian-osx.yml
+./bin/gbuild --commit ditcoin=${VERSION} ../ditcoin/contrib/gitian-descriptors/gitian-osx.yml
 pushd build/out
-zip -r peercoin-${VERSION}-osx-gitian.zip *
-mv peercoin-${VERSION}-osx-gitian.zip /peercoin/
+zip -r ditcoin-${VERSION}-osx-gitian.zip *
+mv ditcoin-${VERSION}-osx-gitian.zip /ditcoin/
 popd
 
-echo "build complete, files are in /peercoin/ directory"
+echo "build complete, files are in /ditcoin/ directory"

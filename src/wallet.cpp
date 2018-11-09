@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2018 The Peercoin developers
+// Copyright (c) 2011-2018 The Ditcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -90,7 +90,7 @@ bool CWallet::AddCScript(const CScript& redeemScript)
     return CWalletDB(strWalletFile).WriteCScript(Hash160(redeemScript), redeemScript);
 }
 
-// ppcoin: optional setting to unlock wallet for block minting only;
+// ditcoin: optional setting to unlock wallet for block minting only;
 //         serves to disable the trivial sendmoney when OS account compromised
 bool fWalletUnlockMintOnly = false;
 
@@ -597,7 +597,7 @@ int64 CWalletTx::GetTxTime() const
     //int64 n = nTimeSmart;
     //return n ? n : nTimeReceived;
 
-    //ppcoin: we still have the timestamp, so use it to avoid confusion
+    //ditcoin: we still have the timestamp, so use it to avoid confusion
     return nTime;
 }
 
@@ -973,7 +973,7 @@ int64 CWallet::GetUnconfirmedBalance() const
     return nTotal;
 }
 
-// ppcoin: total coins staked (non-spendable until maturity)
+// ditcoin: total coins staked (non-spendable until maturity)
 int64 CWallet::GetStake() const
 {
     int64 nTotal = 0;
@@ -1019,7 +1019,7 @@ void CWallet::AvailableCoins(std::vector<COutput>& vCoins, unsigned int nSpendTi
                 continue;
 
             if (pcoin->nTime > nSpendTime)
-                continue;  // ppcoin: timestamp must not exceed spend time
+                continue;  // ditcoin: timestamp must not exceed spend time
 
             if ((pcoin->IsCoinBase() || pcoin->IsCoinStake()) && pcoin->GetBlocksToMaturity() > 0)
                 continue;
@@ -1282,7 +1282,7 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, int64> >& vecSend,
                     nFeeRet += nMoveToFee;
                 }
 
-                // ppcoin: sub-cent change is moved to fee
+                // ditcoin: sub-cent change is moved to fee
                 if (nChange > 0 && nChange < MIN_TXOUT_AMOUNT)
                 {
                     nFeeRet += nChange;
@@ -1294,7 +1294,7 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, int64> >& vecSend,
                     // coin control: send change to custom address
                     if (coinControl && !boost::get<CNoDestination>(&coinControl->destChange))
                         scriptChange.SetDestination(coinControl->destChange);
-                    else if (!GetBoolArg("-avatar")) // ppcoin: not avatar mode; nu: avatar mode enabled by default only on Share wallet to avoid change being sent to hidden address
+                    else if (!GetBoolArg("-avatar")) // ditcoin: not avatar mode; nu: avatar mode enabled by default only on Share wallet to avoid change being sent to hidden address
                     {
                         // Note: We use a new key here to keep it from being obvious which side is the change.
                         //  The drawback is that by not reusing a previous key, the change may be lost if a
@@ -1382,7 +1382,7 @@ bool CWallet::CreateTransaction(CScript scriptPubKey, int64 nValue,
     return CreateTransaction(vecSend, wtxNew, reservekey, nFeeRet, strFailReason, coinControl);
 }
 
-// ppcoin: create coin stake transaction
+// ditcoin: create coin stake transaction
 bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int64 nSearchInterval, CTransaction& txNew)
 {
     // The following split & combine thresholds are important to security
@@ -1968,8 +1968,8 @@ int64 CWallet::GetOldestKeyPoolTime()
     return keypool.nTime;
 }
 
-// ppcoin: check 'spent' consistency between wallet and txindex
-// ppcoin: fix wallet spent state according to txindex
+// ditcoin: check 'spent' consistency between wallet and txindex
+// ditcoin: fix wallet spent state according to txindex
 void CWallet::FixSpentCoins(int& nMismatchFound, int64& nBalanceInQuestion, bool fCheckOnly)
 {
     nMismatchFound = 0;
@@ -2018,7 +2018,7 @@ void CWallet::FixSpentCoins(int& nMismatchFound, int64& nBalanceInQuestion, bool
     }
 }
 
-// ppcoin: disable transaction (only for coinstake)
+// ditcoin: disable transaction (only for coinstake)
 void CWallet::DisableTransaction(const CTransaction &tx)
 {
     if (!tx.IsCoinStake() || !IsFromMe(tx))

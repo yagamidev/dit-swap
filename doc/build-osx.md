@@ -9,7 +9,7 @@ Authors
 * Colin Dean <cad@cad.cx>
 * Gavin Andresen <gavinandresen@gmail.com>
 
-Modified for Peercoin by Jeff Larkin <jefflarkin@gmail.com>
+Modified for Ditcoin by Jeff Larkin <jefflarkin@gmail.com>
 
 License
 -------
@@ -28,10 +28,10 @@ Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.
 Notes
 -----
 
-See `doc/readme-qt.rst` for instructions on building Peercoin-Qt, the
+See `doc/readme-qt.rst` for instructions on building Ditcoin-Qt, the
 graphical user interface.
 
-Tested on OS X 10.5 through 10.8 on Intel processors only. PPC is not
+Tested on OS X 10.5 through 10.8 on Intel processors only. DIT is not
 supported because it is big-endian.
 
 All of the commands should be executed in a Terminal application. The
@@ -74,14 +74,14 @@ Installing the dependencies using MacPorts is very straightforward.
 
     sudo port install boost db48@+no_java openssl miniupnpc
 
-### Building `peercoind`
+### Building `ditcoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:peercoin/peercoin.git peercoin
-        cd peercoin
+        git clone git@github.com:ditcoin/ditcoin.git ditcoin
+        cd ditcoin
 
-2.  Build peercoind:
+2.  Build ditcoind:
 
         cd src
         make -f makefile.osx
@@ -107,12 +107,12 @@ If not, you can ensure that the Brew OpenSSL is correctly linked by running
 
 Rerunning "openssl version" should now return the correct version.
 
-### Building `peercoind`
+### Building `ditcoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:peercoin/peercoin.git peercoin
-        cd peercoin
+        git clone git@github.com:ditcoin/ditcoin.git ditcoin
+        cd ditcoin
 
 2.  Modify source in order to pick up the `openssl` library.
 
@@ -122,7 +122,7 @@ Rerunning "openssl version" should now return the correct version.
 
         patch -p1 < contrib/homebrew/makefile.osx.patch
 
-3.  Build peercoind:
+3.  Build ditcoind:
 
         cd src
         make -f makefile.osx
@@ -132,10 +132,10 @@ Rerunning "openssl version" should now return the correct version.
 Creating a release build
 ------------------------
 
-A peercoind binary is not included in the Peercoin-Qt.app bundle. You can ignore
-this section if you are building `peercoind` for your own use.
+A ditcoind binary is not included in the Ditcoin-Qt.app bundle. You can ignore
+this section if you are building `ditcoind` for your own use.
 
-If you are building `peercoind` for others, your build machine should be set up
+If you are building `ditcoind` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -164,20 +164,20 @@ Once dependencies are compiled, creating `Bitcoin-Qt.app` is easy:
 Running
 -------
 
-It's now available at `./peercoind`, provided that you are still in the `src`
+It's now available at `./ditcoind`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./peercoind` to get the filename where it should be put, or just try these
+Run `./ditcoind` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=bitcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Peercoin/peercoin.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Peercoin/peercoin.conf"
+    echo -e "rpcuser=bitcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Ditcoin/ditcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Ditcoin/ditcoin.conf"
 
 When next you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours.
 
 Other commands:
 
-    ./peercoind --help  # for a list of command-line options.
-    ./peercoind -daemon # to start the bitcoin daemon.
-    ./peercoind help    # When the daemon is running, to get a list of RPC commands
+    ./ditcoind --help  # for a list of command-line options.
+    ./ditcoind -daemon # to start the bitcoin daemon.
+    ./ditcoind help    # When the daemon is running, to get a list of RPC commands

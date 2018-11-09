@@ -19,11 +19,11 @@
 
 #endif //HAVE_CONFIG_H
 
-// ppcoin version - intended for display purpose ONLY
-#define PEERCOIN_VERSION_MAJOR       0
-#define PEERCOIN_VERSION_MINOR       6
-#define PEERCOIN_VERSION_REVISION    4
-#define PEERCOIN_VERSION_BUILD       0
+// ditcoin version - intended for display purpose ONLY
+#define DITCOIN_VERSION_MAJOR       0
+#define DITCOIN_VERSION_MINOR       6
+#define DITCOIN_VERSION_REVISION    4
+#define DITCOIN_VERSION_BUILD       0
 
 // Copyright year (2009-this)
 // Todo: update this when changing our copyright comments in the source

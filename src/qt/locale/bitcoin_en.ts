@@ -6,17 +6,17 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Peercoin</source>
-        <translation>About Peercoin</translation>
+        <source>About Ditcoin</source>
+        <translation>About Ditcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Peercoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Peercoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Ditcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Ditcoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright &amp;copy; 2011-YYYY Peercoin Developers</source>
+        <source>Copyright &amp;copy; 2011-YYYY Ditcoin Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -41,7 +41,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>Peercoin Developers</source>
+        <source>Ditcoin Developers</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -74,8 +74,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Peercoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your Peercoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your Ditcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your Ditcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -89,8 +89,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Peercoin address</source>
-        <translation>Sign a message to prove you own a Peercoin address</translation>
+        <source>Sign a message to prove you own a Ditcoin address</source>
+        <translation>Sign a message to prove you own a Ditcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -114,8 +114,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Peercoin address</source>
-        <translation>Verify a message to ensure it was signed with a specified Peercoin address</translation>
+        <source>Verify a message to ensure it was signed with a specified Ditcoin address</source>
+        <translation>Verify a message to ensure it was signed with a specified Ditcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -129,8 +129,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Peercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Peercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Ditcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Ditcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -255,8 +255,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEERCOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEERCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DITCOINS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DITCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -282,8 +282,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Peercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
-        <translation>Peercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</translation>
+        <source>Ditcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ditcoins from being stolen by malware infecting your computer.</source>
+        <translation>Ditcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ditcoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -381,8 +381,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Peercoin</source>
-        <translation>Show information about Peercoin</translation>
+        <source>Show information about Ditcoin</source>
+        <translation>Show information about Ditcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -426,13 +426,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-392"/>
-        <source>Send coins to a Peercoin address</source>
-        <translation>Send coins to a Peercoin address</translation>
+        <source>Send coins to a Ditcoin address</source>
+        <translation>Send coins to a Ditcoin address</translation>
     </message>
     <message>
         <location line="+58"/>
-        <source>Modify configuration options for Peercoin</source>
-        <translation>Modify configuration options for Peercoin</translation>
+        <source>Modify configuration options for Ditcoin</source>
+        <translation>Modify configuration options for Ditcoin</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -462,8 +462,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-184"/>
         <location line="+582"/>
-        <source>Peercoin</source>
-        <translation>Peercoin</translation>
+        <source>Ditcoin</source>
+        <translation>Ditcoin</translation>
     </message>
     <message>
         <location line="-582"/>
@@ -497,8 +497,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+24"/>
-        <source>&amp;About Peercoin</source>
-        <translation>&amp;About Peercoin</translation>
+        <source>&amp;About Ditcoin</source>
+        <translation>&amp;About Ditcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -527,13 +527,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Peercoin addresses to prove you own them</source>
-        <translation>Sign messages with your Peercoin addresses to prove you own them</translation>
+        <source>Sign messages with your Ditcoin addresses to prove you own them</source>
+        <translation>Sign messages with your Ditcoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Peercoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Peercoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Ditcoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Ditcoin addresses</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -547,7 +547,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Open https://peercoin.chat in a web browser.</source>
+        <source>Open https://ditcoin.chat in a web browser.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -557,7 +557,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Open https://talk.peercoin.net in a web browser.</source>
+        <source>Open https://talk.ditcoin.net in a web browser.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -588,15 +588,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+49"/>
-        <source>Peercoin client</source>
-        <translation>Peercoin client</translation>
+        <source>Ditcoin client</source>
+        <translation>Ditcoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+154"/>
-        <source>%n active connection(s) to Peercoin network</source>
+        <source>%n active connection(s) to Ditcoin network</source>
         <translation>
-            <numerusform>%n active connection to Peercoin network</numerusform>
-            <numerusform>%n active connections to Peercoin network</numerusform>
+            <numerusform>%n active connection to Ditcoin network</numerusform>
+            <numerusform>%n active connections to Ditcoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -720,8 +720,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Peercoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid Peercoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Ditcoin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid Ditcoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -740,8 +740,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+114"/>
-        <source>A fatal error occurred. Peercoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Peercoin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. Ditcoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. Ditcoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -1067,8 +1067,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Peercoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Ditcoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Ditcoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1086,8 +1086,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location filename="../guiutil.cpp" line="+445"/>
         <location line="+12"/>
-        <source>Peercoin-Qt</source>
-        <translation>Peercoin-Qt</translation>
+        <source>Ditcoin-Qt</source>
+        <translation>Ditcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1325,8 +1325,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically start Peercoin after logging in to the system.</source>
-        <translation>Automatically start Peercoin after logging in to the system.</translation>
+        <source>Automatically start Ditcoin after logging in to the system.</source>
+        <translation>Automatically start Ditcoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -1335,8 +1335,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Peercoin on system login</source>
-        <translation>&amp;Start Peercoin on system login</translation>
+        <source>&amp;Start Ditcoin on system login</source>
+        <translation>&amp;Start Ditcoin on system login</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1360,8 +1360,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Peercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Peercoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Ditcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Ditcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1370,8 +1370,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Peercoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the Peercoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the Ditcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the Ditcoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1445,8 +1445,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Peercoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Peercoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ditcoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Ditcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1460,8 +1460,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Peercoin addresses in the transaction list or not.</source>
-        <translation>Whether to show Peercoin addresses in the transaction list or not.</translation>
+        <source>Whether to show Ditcoin addresses in the transaction list or not.</source>
+        <translation>Whether to show Ditcoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1522,8 +1522,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Peercoin.</source>
-        <translation>This setting will take effect after restarting Peercoin.</translation>
+        <source>This setting will take effect after restarting Ditcoin.</source>
+        <translation>This setting will take effect after restarting Ditcoin.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1546,8 +1546,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="+7"/>
         <location line="+245"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Peercoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Peercoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ditcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Ditcoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-199"/>
@@ -1605,8 +1605,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start peercoin: click-to-pay handler</source>
-        <translation>Cannot start peercoin: click-to-pay handler</translation>
+        <source>Cannot start ditcoin: click-to-pay handler</source>
+        <translation>Cannot start ditcoin: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1755,8 +1755,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Peercoin-Qt help message to get a list with possible Peercoin command-line options.</source>
-        <translation>Show the Peercoin-Qt help message to get a list with possible Peercoin command-line options.</translation>
+        <source>Show the Ditcoin-Qt help message to get a list with possible Ditcoin command-line options.</source>
+        <translation>Show the Ditcoin-Qt help message to get a list with possible Ditcoin command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1775,13 +1775,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <location line="-104"/>
-        <source>Peercoin - Debug window</source>
-        <translation>Peercoin - Debug window</translation>
+        <source>Ditcoin - Debug window</source>
+        <translation>Ditcoin - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Peercoin Core</source>
-        <translation>Peercoin Core</translation>
+        <source>Ditcoin Core</source>
+        <translation>Ditcoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1790,8 +1790,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Peercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Peercoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Ditcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Ditcoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1800,8 +1800,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Peercoin RPC console.</source>
-        <translation>Welcome to the Peercoin RPC console.</translation>
+        <source>Welcome to the Ditcoin RPC console.</source>
+        <translation>Welcome to the Ditcoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2035,7 +2035,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <location line="+303"/>
-        <source>Warning: Invalid Peercoin address.
+        <source>Warning: Invalid Ditcoin address.
 A standard change address will be used instead.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2136,8 +2136,8 @@ A standard change address will be used instead.</source>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Enter a Peercoin address</translation>
+        <source>Enter a Ditcoin address</source>
+        <translation>Enter a Ditcoin address</translation>
     </message>
 </context>
 <context>
@@ -2201,8 +2201,8 @@ A standard change address will be used instead.</source>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Peercoin address</source>
-        <translation>Sign the message to prove you own this Peercoin address</translation>
+        <source>Sign the message to prove you own this Ditcoin address</source>
+        <translation>Sign the message to prove you own this Ditcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2237,8 +2237,8 @@ A standard change address will be used instead.</source>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Peercoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Peercoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Ditcoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Ditcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2253,8 +2253,8 @@ A standard change address will be used instead.</source>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Enter a Peercoin address</translation>
+        <source>Enter a Ditcoin address</source>
+        <translation>Enter a Ditcoin address</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2263,8 +2263,8 @@ A standard change address will be used instead.</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Peercoin signature</source>
-        <translation>Enter Peercoin signature</translation>
+        <source>Enter Ditcoin signature</source>
+        <translation>Enter Ditcoin signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2900,13 +2900,13 @@ A standard change address will be used instead.</source>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=peercoinrpc
+rpcuser=ditcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Ditcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -2932,8 +2932,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Peercoin is probably already running.</source>
-        <translation type="unfinished">Cannot obtain a lock on data directory %s. Peercoin is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Ditcoin is probably already running.</source>
+        <translation type="unfinished">Cannot obtain a lock on data directory %s. Ditcoin is probably already running.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2987,8 +2987,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to bind to %s on this computer. Peercoin is probably already running.</source>
-        <translation type="unfinished">Unable to bind to %s on this computer. Peercoin is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Ditcoin is probably already running.</source>
+        <translation type="unfinished">Unable to bind to %s on this computer. Ditcoin is probably already running.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2997,8 +2997,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Peercoin will not work properly.</source>
-        <translation type="unfinished">Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Peercoin will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Ditcoin will not work properly.</source>
+        <translation type="unfinished">Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Ditcoin will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3141,8 +3141,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Peercoin</source>
-        <translation type="unfinished">Error loading wallet.dat: Wallet requires newer version of Peercoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ditcoin</source>
+        <translation type="unfinished">Error loading wallet.dat: Wallet requires newer version of Ditcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3391,8 +3391,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Peercoin version</source>
-        <translation type="unfinished">Peercoin version</translation>
+        <source>Ditcoin version</source>
+        <translation type="unfinished">Ditcoin version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3431,8 +3431,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or peercoind</source>
-        <translation type="unfinished">Send command to -server or peercoind</translation>
+        <source>Send command to -server or ditcoind</source>
+        <translation type="unfinished">Send command to -server or ditcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3496,8 +3496,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify configuration file (default: peercoin.conf)</source>
-        <translation type="unfinished">Specify configuration file (default: peercoin.conf)</translation>
+        <source>Specify configuration file (default: ditcoin.conf)</source>
+        <translation type="unfinished">Specify configuration file (default: ditcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3511,8 +3511,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation type="unfinished">Specify pid file (default: peercoind.pid)</translation>
+        <source>Specify pid file (default: ditcoind.pid)</source>
+        <translation type="unfinished">Specify pid file (default: ditcoind.pid)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3626,8 +3626,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Peercoin to complete</source>
-        <translation type="unfinished">Wallet needed to be rewritten: restart Peercoin to complete</translation>
+        <source>Wallet needed to be rewritten: restart Ditcoin to complete</source>
+        <translation type="unfinished">Wallet needed to be rewritten: restart Ditcoin to complete</translation>
     </message>
     <message>
         <location line="+1"/>

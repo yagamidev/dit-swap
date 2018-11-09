@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Peercoin (testnet)
-Comment=Core wallet for Peercoin P2P Cryptocurrency (testnet)
-Comment[de]=Offizieller Client für die Kryptowährung Peercoin (testnet)
-Exec=/usr/bin/peercoin-qt -testnet %u
+Name=Ditcoin (testnet)
+Comment=Core wallet for Ditcoin P2P Cryptocurrency (testnet)
+Comment[de]=Offizieller Client für die Kryptowährung Ditcoin (testnet)
+Exec=/usr/bin/ditcoin-qt -testnet %u
 Terminal=false
 Type=Application
-Icon=/usr/share/pixmaps/peercoin-testnet128.png
-MimeType=x-scheme-handler/peercoin;
+Icon=/usr/share/pixmaps/ditcoin-testnet128.png
+MimeType=x-scheme-handler/ditcoin;
 Categories=Application;Network;
