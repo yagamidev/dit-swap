@@ -271,17 +271,18 @@ public:
 class CBitcoinAddress : public CBase58Data
 {
 public:
-    enum
-    {
-        PUBKEY_ADDRESS = 55,  // ditcoin: addresses begin with 'P'
-        SCRIPT_ADDRESS = 117, // ditcoin: addresses begin with 'p'
-        PUBKEY_ADDRESS_TEST = 111,
-        SCRIPT_ADDRESS_TEST = 196,
-    };
+  enum
+  {
+      PUBKEY_ADDRESS = 31,  // ditcoin: addresses begin with 'P'
+      SCRIPT_ADDRESS = 90, // ditcoin: addresses begin with 'p'
+      PUBKEY_ADDRESS_TEST = 111,
+      SCRIPT_ADDRESS_TEST = 196,
+  };
 
-    bool Set(const CKeyID &id) {
-        SetData(fTestNet ? PUBKEY_ADDRESS_TEST : PUBKEY_ADDRESS, &id, 20);
-        return true;
+  bool Set(const CKeyID &id)
+  {
+      SetData(fTestNet ? PUBKEY_ADDRESS_TEST : PUBKEY_ADDRESS, &id, 20);
+      return true;
     }
 
     bool Set(const CScriptID &id) {

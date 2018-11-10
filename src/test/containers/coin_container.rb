@@ -95,7 +95,7 @@ class CoinContainer
       'Tty' => true,
       'Cmd' => command,
       'ExposedPorts' => {
-        "9903/tcp" => {},
+        "9883/tcp" => {},
         "9904/tcp" => {},
       },
       'name' => name,
@@ -117,7 +117,7 @@ class CoinContainer
       'Binds' => ["#{File.expand_path('../../..', __FILE__)}:/code"],
       'PortBindings' => {
         "9904/tcp" => [{}],
-        "9903/tcp" => [{}],
+        "9883/tcp" => [{}],
       },
       'Links' => links.map { |link_name, alias_name| "#{link_name}:#{alias_name}" },
     )
@@ -135,7 +135,7 @@ class CoinContainer
     end
     port = ports["9904/tcp"].first["HostPort"].to_i
     @rpc_port = port
-    @port= ports["9903/tcp"].first["HostPort"].to_i
+    @port= ports["9883/tcp"].first["HostPort"].to_i
   end
 
   def initialize(options = {})

@@ -39,7 +39,7 @@ uint256 hashGenesisBlock = hashGenesisBlockOfficial;
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 32);
 static CBigNum bnInitialHashTarget(~uint256(0) >> 40);
 unsigned int nStakeMinAge = STAKE_MIN_AGE;
-int nCoinbaseMaturity = COINBASE_MATURITY_PPC;
+int nCoinbaseMaturity = COINBASE_MATURITY_DIT;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 uint256 nBestChainTrust = 0;
@@ -3219,7 +3219,7 @@ bool LoadBlockIndex()
     if (fTestNet)
     {
 #ifdef TESTING
-        hashGenesisBlock = uint256("00008d0d88095d31f6dbdbcf80f6e51f71adf2be15740301f5e05cc0f3b2d2c0");
+        hashGenesisBlock = uint256("00000000a28301cefcaf5851093e71f547a2de9a2fd59283d0300087ae146f59");
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 15);
         nStakeMinAge = 60 * 60 * 24; // test net min age is 1 day
         nCoinbaseMaturity = 60;
@@ -3268,26 +3268,53 @@ bool InitBlockIndex() {
         //   vMerkleTree: 4a5e1e
 
         // Genesis block
-        const char* pszTimestamp = "Matonis 07-AUG-2012 Parallel Currencies And The Roadmap To Monetary Freedom";
+        const char* pszTimestamp = "This is the genesis block of Ditcoin enjoy it";
         CTransaction txNew;
-        txNew.nTime = 1345083810;
+        txNew.nTime = 1541775293;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
-        txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(9999) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].SetEmpty();
+        txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(17000000) << vector<unsigned char>((const unsigned char *)pszTimestamp, (const unsigned char *)pszTimestamp + strlen(pszTimestamp));
+        txNew.vout[0].nValue = 16500000 * COIN ; // Set the value here for the genesis block reward
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("0458ef6a2e7eb91e6ff27dc106ce8ba47b3e99442e69108c616e8279a95bcc29e3e89796fd43febea1786c49a06bdfc7de316a1ea7df0c4525d27fece51e38dfb7") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1345084287;
+        block.nTime = 1541775293;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 2179302059u;
+        block.nNonce = 3628882099;
 
         if (fTestNet)
         {
-            block.nTime    = 1345090000;
+            block.nTime = 1541775286;
             block.nNonce   = 122894938;
+        }
+
+        // Script for genesis block has generating
+        if (false && block.GetHash() != uint256("0x"))
+        {
+            printf("MSearching for genesis block...\n");
+            uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
+
+            while (uint256(block.GetHash()) > uint256(hashTarget))
+            {
+                ++block.nNonce;
+                if (block.nNonce == 0)
+                {
+                    printf("Mainnet NONCE WRAPPED, incrementing time");
+                    std::cout << std::string("Mainnet NONCE WRAPPED, incrementing time:\n");
+                    ++block.nTime;
+                }
+                if (block.nNonce % 1048576 == 0)
+                {
+                    printf("Mainnet: nonce %08u: hash = %s \n", block.nNonce, block.GetHash().ToString().c_str());
+                }
+            }
+            printf("Mainnet block.nTime = %u \n", block.nTime);
+            printf("Mainnet block.nNonce = %u \n", block.nNonce);
+            printf("Mainnet block.hashMerkleRoot: %s\n", block.hashMerkleRoot.ToString().c_str());
+            printf("Mainnet block.GetHash = %s\n", block.GetHash().ToString().c_str());
         }
 
 #ifdef TESTING
@@ -3307,7 +3334,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x3c2d8f85fab4d17aac558cc648a1a58acff0de6deb890c29985690052c5993c2"));
+        assert(block.hashMerkleRoot == uint256("0xb41cffbe49453626e088a2f4f2e36d0af5dad20d47f981b0a42826cf594c8d8a"));
         block.print();
         assert(hash == hashGenesisBlock);
         // ditcoin: check genesis block

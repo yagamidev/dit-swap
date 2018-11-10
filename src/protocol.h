@@ -15,9 +15,9 @@
 #include <string>
 #include "uint256.h"
 
-#define DITCOIN_PORT  9901
+#define DITCOIN_PORT  9884
 #define RPC_PORT     9902
-#define TESTNET_PORT 9903
+#define TESTNET_PORT 9883
 #define TESTNET_RPC_PORT 9904
 
 extern bool fTestNet;

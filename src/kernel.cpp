@@ -11,19 +11,18 @@
 using namespace std;
 
 // Protocol switch time of v0.3 kernel protocol
-unsigned int nProtocolV03SwitchTime     = 1363800000;
-unsigned int nProtocolV03TestSwitchTime = 1359781000;
+unsigned int nProtocolV03SwitchTime = 1565308800;
+unsigned int nProtocolV03TestSwitchTime = 1565308800;
 // Protocol switch time of v0.4 kernel protocol
-unsigned int nProtocolV04SwitchTime     = 1399300000;
-unsigned int nProtocolV04TestSwitchTime = 1395700000;
+unsigned int nProtocolV04SwitchTime = 1565308800;
+unsigned int nProtocolV04TestSwitchTime = 1565308800;
 // Protocol switch time of v0.5 kernel protocol
-unsigned int nProtocolV05SwitchTime     = 1461700000;
-unsigned int nProtocolV05TestSwitchTime = 1447700000;
+unsigned int nProtocolV05SwitchTime     = 1565308800;
+unsigned int nProtocolV05TestSwitchTime = 1565308800;
 // Protocol switch time of v0.6 kernel protocol
 // supermajority hardfork: actual fork will happen later than switch time
-const unsigned int nProtocolV06SwitchTime     = 1513050000; // Tue 12 Dec 03:40:00 UTC 2017
-const unsigned int nProtocolV06TestSwitchTime = 1508198400; // Tue 17 Oct 00:00:00 UTC 2017
-
+const unsigned int nProtocolV06SwitchTime     = 1565308800; // Tue 12 Dec 03:40:00 UTC 2017
+const unsigned int nProtocolV06TestSwitchTime = 1565308800; // Tue 17 Oct 00:00:00 UTC 2017
 
 // Modifier interval: time to elapse before new modifier is computed
 // Set to 6-hour for production network and 20-minute for test network
@@ -33,12 +32,6 @@ unsigned int nModifierInterval = MODIFIER_INTERVAL;
 static std::map<int, unsigned int> mapStakeModifierCheckpoints =
     boost::assign::map_list_of
     ( 0, 0x0e00670bu )
-    ( 19080, 0xad4e4d29u )
-    ( 30583, 0xdc7bf136u )
-    ( 99999, 0xf555cfd2u )
-    (219999, 0x91b7444du )
-    (336000, 0x6c3c8048u )
-    (371850, 0x9b850bdfu )
     ;
 
 // Whether the given coinstake is subject to new v0.3 protocol

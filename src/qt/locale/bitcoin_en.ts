@@ -3316,8 +3316,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9901 or testnet: 9903)</source>
-        <translation type="unfinished">Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333) {9901 ?} {9903)?}</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9884 or testnet: 9883)</source>
+        <translation type="unfinished">Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333) {9884 ?} {9883)?}</translation>
     </message>
     <message>
         <location line="+1"/>
